@@ -1,0 +1,35 @@
+@media  screen and(max-width: 1024px) {
+    
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr);
+
+}
+.contact__container{
+    background: yellow;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap:5rem;
+    margin-top: 3rem;
+    height: auto;
+    padding: 1.5re;
+}
+
+
+
+.contact__aside{
+    width : auto;
+    padding: 1.5rem;
+    bottom: 0;
+    margin-left: 5rem;
+
+}
+
+
+
+.form__name{
+    margin-left: 5rem;
+
+}}
